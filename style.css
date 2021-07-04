@@ -1,6 +1,7 @@
 body{
 margin: 0px;
 padding-top: 800px;
+text-align: center;    
 }
 .profile{
 width: 175px;
@@ -41,6 +42,7 @@ font-family: monospace;
 #bio{
 padding:  50px;
 text-align: center;
+font-family:'Roboto Mono', monospace;
 }
 .line{
 height: 6px;
@@ -63,14 +65,15 @@ vertical-align: middle;
 .menu{
 list-style: none;
 font-family: fantasy;
-position: absolute;
-top: 10px;
-right: 30px;
+position: fixed;
+top: 0px;
 z-index: 10;
+margin-top: 0px;
+width: 100%;
 cursor: pointer;
+background: white;
 }
 .links{
-float: left;
 color: black;
 padding-top: 5px;
 padding-bottom: 5px;
@@ -78,16 +81,39 @@ padding-left: 9px;
 padding-right: 9px;
 font-family: serif;
 font-size: 20px;
-border-style: dashed;
-border-width: 2px;
-
+border-style: solid;
+border-width: 5px;
+display: inline;
 }
 .links:hover{
 background-color: #fff70a;
+text-decoration: underline;
 }
 html{
 scroll-behavior: smooth;
 }
 .article:hover{
 color: aqua;
+}
+a{
+text-decoration: none;
+text-shadow: 2px 2px gains boro;
+}
+#writings a{
+text-shadow: none;
+text-decoration: underline;
+color: blue;
+}
+#contact{
+background: fire-brick;
+}
+#contact iframe{
+width: 100%;
+}
+.contact1 h3{
+display: inline;
+}
+.contact1 a{
+color: white;
+text-shadow: 
 }
